@@ -1,9 +1,13 @@
 ---
 title: 主要功能与配置演示
 index: false
-icon: laptop-code
+# icon: laptop-code
 category:
   - 使用指南
+
+
+# 禁用配置
+article: false
 ---
 
 ## 目录

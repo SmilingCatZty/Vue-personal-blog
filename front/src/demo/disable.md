@@ -1,15 +1,16 @@
 ---
 title: 布局与功能禁用
-icon: gears
+# icon: gears
 order: 3
 category:
   - 使用指南
 tag:
   - 禁用
 
+# 禁用配置
+article: false #文章记录
 navbar: false
 sidebar: false
-
 breadcrumb: false
 pageInfo: false
 contributors: false

@@ -1,11 +1,16 @@
 ---
 title: Markdown 展示
-icon: fab fa-markdown
+# icon: fab fa-markdown
 order: 2
 category:
   - 使用指南
 tag:
   - Markdown
+dir:
+  - collapsible : true
+
+# 禁用配置
+article: false
 ---
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
@@ -288,8 +293,6 @@ $$
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/tex.html)
 
 #### 导入文件
-
-<!-- @include: ./README.md{11-17} -->
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/include.html)
 

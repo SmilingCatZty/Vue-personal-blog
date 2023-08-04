@@ -6,42 +6,32 @@ export default navbar([
   {
     text: "博文",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/article/",
     children: [
       {
-        text: "苹果",
+        text: "Vue",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "vue/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: 'vue2升级改造', icon: "pen-to-square", link: "vue.v2升级v3记录" }
         ],
       },
       {
-        text: "香蕉",
+        text: "React",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "react/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: '自定义Hooks', icon: "pen-to-square", link: "react.自定义hooks" }
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      {
+        text: "Uniapp",
+        icon: "pen-to-square",
+        prefix: "uniapp/",
+        children: [
+          { text: '小程序问题汇总', icon: "pen-to-square", link: "uniapp.小程序踩坑记录" }
+        ],
+      },
     ],
   },
   {
