@@ -22,7 +22,7 @@ export default sidebar({
       prefix: "demo/",
       children: "structure",
     },
-    "intro",
+    "resume",
     "slides",
   ],
 });

@@ -1855,6 +1855,14 @@
     "@vuepress/core" "2.0.0-beta.66"
     prismjs "^1.29.0"
 
+"@vuepress/plugin-shiki@^2.0.0-beta.66":
+  version "2.0.0-beta.66"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-shiki/-/plugin-shiki-2.0.0-beta.66.tgz#53a5ea78f85150982e2ba517b90c25d0ce1b02ca"
+  integrity sha512-s1x5adVEP3iHhTaTlW3icw3/4Kge/3pqE9T27J2ZEkzSjwI38Cj/MVBxKayBes3gJuOE0snADTkhclSN0WEwgQ==
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.66"
+    shiki "^0.14.3"
+
 "@vuepress/plugin-theme-data@2.0.0-beta.66":
   version "2.0.0-beta.66"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.66.tgz#52c87db594763b5c38913f5a2e417599b080b536"
@@ -1978,6 +1986,11 @@ ansi-regex@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/ansi-regex/-/ansi-regex-6.0.1.tgz#3183e38fae9a65d7cb5e53945cd5897d0260a06a"
   integrity sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==
+
+ansi-sequence-parser@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/ansi-sequence-parser/-/ansi-sequence-parser-1.1.1.tgz#e0aa1cdcbc8f8bb0b5bca625aac41f5f056973cf"
+  integrity sha512-vJXt3yiaUL4UU546s3rPXlsry/RnM730G1+HkpKE012AN0sx1eOrxSu95oKDIonskeLTijMgqWZ3uDEe3NFvyg==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -3798,6 +3811,11 @@ json5@^2.2.0, json5@^2.2.2:
   resolved "https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
+jsonc-parser@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/jsonc-parser/-/jsonc-parser-3.2.0.tgz#31ff3f4c2b9793f89c67212627c51c6394f88e76"
+  integrity sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==
+
 jsonfile@^6.0.1:
   version "6.1.0"
   resolved "https://registry.npmmirror.com/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
@@ -4897,6 +4915,16 @@ shebang-regex@^3.0.0:
   resolved "https://registry.npmmirror.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+shiki@^0.14.3:
+  version "0.14.3"
+  resolved "https://registry.npmmirror.com/shiki/-/shiki-0.14.3.tgz#d1a93c463942bdafb9866d74d619a4347d0bbf64"
+  integrity sha512-U3S/a+b0KS+UkTyMjoNojvTgrBHjgp7L6ovhFVZsXmBGnVdQ4K4U9oK0z63w538S91ATngv1vXigHCSWOwnr+g==
+  dependencies:
+    ansi-sequence-parser "^1.1.0"
+    jsonc-parser "^3.2.0"
+    vscode-oniguruma "^1.7.0"
+    vscode-textmate "^8.0.0"
+
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
@@ -4925,6 +4953,11 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
+slimsearch@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/slimsearch/-/slimsearch-1.0.0.tgz#e05feefd2bc311f0ccfe0e52742b246085b45df4"
+  integrity sha512-ig1Du+U5LFngeDokhUupBqmEz3aKRJ4v+R2t6ZOi3aPGaFivYxxOiDcJX7fR0xPxjmTe94rAA6RW5gKlX5Gcsg==
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
@@ -5351,6 +5384,16 @@ vite@~4.4.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vscode-oniguruma@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npmmirror.com/vscode-oniguruma/-/vscode-oniguruma-1.7.0.tgz#439bfad8fe71abd7798338d1cd3dc53a8beea94b"
+  integrity sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==
+
+vscode-textmate@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npmmirror.com/vscode-textmate/-/vscode-textmate-8.0.0.tgz#2c7a3b1163ef0441097e0b5d6389cd5504b59e5d"
+  integrity sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==
+
 vue-demi@>=0.14.5:
   version "0.14.5"
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.5.tgz#676d0463d1a1266d5ab5cba932e043d8f5f2fbd9"
@@ -5591,6 +5634,23 @@ vuepress-plugin-sass-palette@2.0.0-beta.234:
     "@vuepress/utils" "2.0.0-beta.66"
     chokidar "^3.5.3"
     sass "^1.64.1"
+    vuepress-shared "2.0.0-beta.234"
+
+vuepress-plugin-search-pro@^2.0.0-beta.234:
+  version "2.0.0-beta.234"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-search-pro/-/vuepress-plugin-search-pro-2.0.0-beta.234.tgz#b3af775245659900be69b333fcb94e9d78af4bea"
+  integrity sha512-18TDlfFjJIY66bbK2PApwwCxo8jhtQEliG3fdL9AKupuIUNPL8mHUy/K/Dy8t8sM6LGNdZTbB+mpqCURBWKI8w==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.66"
+    "@vuepress/shared" "2.0.0-beta.66"
+    "@vuepress/utils" "2.0.0-beta.66"
+    "@vueuse/core" "^10.2.1"
+    cheerio "1.0.0-rc.12"
+    chokidar "^3.5.3"
+    slimsearch "^1.0.0"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
+    vuepress-plugin-sass-palette "2.0.0-beta.234"
     vuepress-shared "2.0.0-beta.234"
 
 vuepress-plugin-seo2@2.0.0-beta.234:

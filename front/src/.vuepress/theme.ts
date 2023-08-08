@@ -19,7 +19,8 @@ export default hopeTheme({
   navbar, // navbar
   sidebar, // sidebar
   navbarAutoHide: 'none', // 是否在向下滚动时自动隐藏导航栏，类型: "always" | "mobile" | "none"
-  footer: "默认页脚",
+  footer: "<a href='https://github.com/SmilingCatZty' target='https://github.com'>GitHub主页</a> / <a href='https://juejin.cn/user/1779458959217896' target='https://juejin.cn'>稀土掘金主页</a> / <a href='https://www.csdn.net/' target='https://www.csdn.net/'>CSDN主页</a>",
+  copyright: 'WX: 15569108988',
   displayFooter: true,
   blog: {
     name: "Smilling Cat", // 博主姓名，如未配置此属性，会默认取主题中的author.name属性
@@ -65,7 +66,7 @@ export default hopeTheme({
 
   encrypt: {
     global: true, // 是否开启全局加密
-    admin: ["1234"], // 设置多个密码
+    admin: ["0422"], // 设置多个密码
     config: {
       // "/demo/": ["1234"], // 加密整个目录
       // "/demo/encrypt.html": ["1234"], // 加密单个文件
@@ -73,7 +74,13 @@ export default hopeTheme({
     },
   },
   darkmode: 'toggle', // toggle: 在深色模式和浅色模式之间切换 switch: 在深色模式，浅色模式和自动之间切换 (默认)
-  pageInfo: ['Author', 'Category', 'Tag', 'ReadingTime', 'Word'], // 页面信息默认全局启用，同时支持页面配置。
+  pageInfo: [
+    // 'Author', // 作者
+    'Category', // 分类
+    'Tag', // 标签
+    // 'ReadingTime', // 阅读时间
+    'Word' // 字数统计
+  ], // 页面信息默认全局启用，同时支持页面配置。
 
   // 自定义导航栏布局
   // Brand: 站点品牌
@@ -94,13 +101,15 @@ export default hopeTheme({
   },
 
   plugins: {
+    readingTime: {
+      wordPerMinute: 0
+    },
     blog: true, // 启用博客功能
     // 代码块主题
     prismjs: {
-      light: 'vsc-dark-plus', // 白天模式下的代码主题
-      dark: 'vsc-dark-plus', // 夜间模式下的代码主题
+      light: 'one-light', // 白天模式下的代码主题
+      dark: 'one-dark', // 夜间模式下的代码主题
     },
-
     // 所有功能都已启用演示，只保留此处所需的功能
     mdEnhance: {
       align: true,

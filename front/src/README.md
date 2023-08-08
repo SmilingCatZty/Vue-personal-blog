@@ -8,37 +8,27 @@ heroText: 微笑猫猫的blog
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
+  - icon: link
+    name: 开发助手-前端导航
+    desc: 基于nuxt3 + nestJs实现的前端导航
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
+    name: 数据配置化官网
+    desc: 基于react + nestJs实现的通用数据配置化官网
     link: https://链接地址
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+  - icon: link
+    name: 校园社交系统
+    desc: 基于vue2 + express的大学毕设项目
     link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+footer: 
+  <a href="https://github.com/SmilingCatZty" target="https://github.com">GitHub主页</a> /
+  <a href="https://juejin.cn/user/1779458959217896" target="https://juejin.cn">稀土掘金主页</a> /
+  <a href="https://www.csdn.net/" target="https://www.csdn.net/">CSDN主页</a>
+  # 自定义你的页脚文字111(https://github.com/SmilingCatZty)
+  # - link: 
 ---
 
 <!-- 这是一个博客主页的案例。
