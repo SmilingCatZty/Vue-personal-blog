@@ -27,7 +27,7 @@ export default hopeTheme({
     avatar: "/Cat.png", // 博主头像，如未配置此属性，会默认取主题中的logo属性
     roundAvatar: false, // 希望头像被剪裁成圆形
     description: "一只热爱生活的猫猫", // 一句话介绍、座右铭或口号
-    intro: "/intro.html",
+    intro: "/resume.html",
     // icon合集
     // medias: {
     //   Baidu: "https://example.com",

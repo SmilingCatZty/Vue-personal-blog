@@ -2,6 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
+    "resume",
     // "",
     // {
     //   text: "如何使用",
@@ -22,7 +23,6 @@ export default sidebar({
       prefix: "demo/",
       children: "structure",
     },
-    "resume",
     "slides",
   ],
 });
